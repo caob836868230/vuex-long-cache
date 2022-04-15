@@ -1,0 +1,35 @@
+{
+  "name": "vuex-long-cache",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/vuex-long-cache.umd.js",
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caob836868230/vuex-long-cache.git"
+  },
+  "keywords": [
+    "vuex",
+    "vuex-along",
+    "vuex-cache"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caob836868230/vuex-long-cache/issues"
+  },
+  "homepage": "https://github.com/caob836868230/vuex-long-cache#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@rollup/plugin-commonjs": "^21.0.3",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.9"
+  }
+}
